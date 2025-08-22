@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Quantum Quil-Nav Demo</title>
+
+      <!--google font link-->
+      <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+
+      <!--custom css file link-->
+      <link rel="stylesheet" href="styles.css"/>
+      
+
+      <!--Font Awesome Link-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    </head>
+    <body>
+    <!--Header Section-->
+    <header>
+        <i id="menu-bar" class="fas fa-bars"></i>
+        <a href="/" id="navbar__logo">Quantum Quil</a>
+
+        <!--navigation menu start-->
+      <nav class="navbar">
+         <div class="navbar__container">
+            
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links">
+                    Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="about.html" class="navbar__links">
+                    About Us
+                </a>
+            </li>
+            <li class="navbar__item has-submenu">
+                <a href="#services" class="navbar__links">
+                    Our Services
+                </a>
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="corporate.html">Corporate Advisory Solutions</a></li>
+                    <li class="menu-item"><a href="financial.html">Financial Advisory Solutions</a></li>
+                    <li class="menu-item"><a href="wealth.html">Wealth Management Solutions</a></li>
+                    <li class="menu-item"><a href="consultant.html">Financial Consultant Solutions</a></li>
+                    <li class="menu-item"><a href="project.html">Project Financing Solutions</a></li>
+                    <li class="menu-item"><a href="offshore.html">Offshore Fiduciary Agent Solutions</a></li>
+                    <li class="menu-item"><a href="realestate.html">Real Estate Solutions</a></li>
+                    <li class="menu-item"><a href="generalcounsel.html">General Counsel Solutions</a></li>
+</ul>
+
+            </li>
+            
+            <li class="navbar__item">
+                <a href="career.html" class="navbar__links">
+                    Career
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="contact.html" class="navbar__links">
+                    Contacts Us
+                </a>
+            </li>
+           <!--<li class="navbar__item">
+                <a href="payment.html" class="navbar__links">
+                    Payments
+                </a>
+            </li>-->
+            <!--<li class="navbar__btn">S
+                <a href="/" class="button">
+                    Sign up
+                </a>
+            </li>-->
+          </ul>
+         </div>
+      </nav>
+      <!--navigation menu ends-->
+
+      <div class="icons">
+          <i class="fas fa-search" id="search-btn"></i>
+          <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search" ></label>
+      </form>
+    </header>
+<main>
+    <!--login form container-->
+    <div class="login-form-container" id="login-popup">
+        
+         <i class="fas fa-times" id="form-close"></i>
+        
+        <form action="" id="login-form">
+            <h3>login</h3>
+            <input type="email" class= "box" placeholder="Enter your email" name="email" required><br>
+            <br>
+            <input type="password" class="box" placeholder="Enter your passsword" name="password" required minlength="8"><br>
+            <input type="submit" value="Login Now" class="btn"><br>
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forgot Password? <a href="#">Click here</a></p>
+            <p>Don't have an account?<a href="#">Register now</a></p>
+        </form>
+    </div>
+    <!--login form container ends-->
+
+    
+    <!--Home Section-->
+
+    <section class="home" id="home">
+        <div class="controls">
+            <span class="img-btn" data-src="images/img-1.jpg"></span>
+            <span class="img-btn" data-src="images/img-2.jpg"></span>
+            <span class="img-btn" data-src="images/img-3.jpg"></span>
+            <span class="img-btn" data-src="images/img-4.jpg"></span>
+            <span class="img-btn" data-src="images/img-5.jpg"></span>
+            <span class="img-btn" data-src="images/img-6.jpg"></span>
+            <span class="img-btn" data-src="images/img-7.jpg"></span>
+
+        </div>
+
+        <div class="image-container">
+            <img src="images/img-1.jpg" alt="Slideshow" id="image-slider" />
+
+        </div>
+
+    </section>
+    <!--home Section Ends-->
+  
+</main>
+
+  <!--Footer Section-->
+  <div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <a href="#" class="footer__logo">
+                <img src="images/logo_transparent (1).png" alt="footer logo" class="footer__logo"
+                 style="width: 150px; height: 150px; margin-top: -80px; margin-bottom: -100px;margin-right: -30px;">
+
+                 <div>
+                    <div class="site-title" >
+                        <strong style="font-size:2.8rem;color:#fff">QUANTAM QUIL</strong>
+                    </div>
+                    <div 
+                    style=
+                    "font-size: 1.6rem;
+                     opacity:.75">WEALTH MANAGERS
+                    </div>
+                    </div>
+                 </div>
+            </a>
+        </div>
+       <div class="footer__link--items">
+    <h2>Contact Us</h2>
+
+    <a href="/" class="social__icons--link" target="_blank">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Location</span>
+    </a>
+
+    <a href="tel:+254792889820" class="social__icons--link" target="_blank">
+        <i class="fas fa-phone"></i>
+        <span>+254792889820</span>
+    </a>
+
+    <a href="tel:+254792889820" class="social__icons--link" target="_blank">
+        <i class="fas fa-phone"></i> 
+        <span>+254792889820</span>
+    </a>
+    
+    <a href="lanymudoga@gmail.com" class="social__icons--link" target="_blank">
+        <i class="fas fa-envelope"></i>
+        <span>lanymudoga@gmail.com</span>
+    </a>
+</div>
+ </div>
+    </div>
+    <div class="__media--wrap">
+       
+        <p class="websites__rights">NEXT 2020.All Rights Reserved</p>
+        
+    </div>
+  </div> 
+  <script src="script.js"></script>
+</body>
+</html>
